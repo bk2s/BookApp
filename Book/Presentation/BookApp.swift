@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BookApp: App {
+    
+    let manager = FirebaseManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(manager: manager)
         }
     }
 }
