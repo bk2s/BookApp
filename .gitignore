@@ -22,7 +22,6 @@ Podfile.lock
 Carthage/Build/
 
 # SwiftLint
-/.swiftlint.yml
 /.swiftlint-cache
 
 # SwiftGen
