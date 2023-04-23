@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Book
+
+  Created by  Stepanok Ivan on 22.04.2023.
+  
+*/
+
+"SPLASH_SCREEN.NAME" = "Book App";
+"SPLASH_SCREEN.WELCOME" = "Welcome to Book App";
+
+"MAIN_VIEW.LIBRARY" = "Library";
+
+"DETAILS.ALSO_LIKE" = "You will also like";
+"DETAILS.READERS" = "Readers";
+"DETAILS.LIKES" = "Likes";
+"DETAILS.QUOTES" = "Quotes";
+"DETAILS.GENRE" = "Genre";
+

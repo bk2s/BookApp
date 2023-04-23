@@ -1,0 +1,16 @@
+{
+    "top_banner_slides": [ {
+    "id": 0,
+    "book_id": 2,
+    "cover": "https://goodereader.com/blog/wp-content/uploads/images/DFH-banner.jpg"
+    }, {
+
+    "id": 1,
+    "book_id": 3,
+    "cover": "https://www.hometheaterforum.com/community/media/2018-ready-player-one-banner.5070/full"
+    }, {
+    "id": 2,
+    "book_id": 7,
+    "cover": "https://caffeinatedbookreviewer.com/wp-content/uploads/sites/326/2021/06/Project-Hail-Mary-Banner.jpg"
+    } ]
+}

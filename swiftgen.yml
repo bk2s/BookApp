@@ -1,18 +1,18 @@
 strings:
   inputs:
-    - Book/en.lproj
+    - BookApp/en.lproj
   outputs:
     - templateName: structured-swift5
       params:
         publicAccess: true
         enumName: AppLocalization
-      output: Book/SwiftGen/Strings.swift
+      output: BookApp/SwiftGen/Strings.swift
 xcassets:
   inputs:
-    - Book/Assets.xcassets
+    - BookApp/Assets.xcassets
   outputs:
     templateName: swift5
     params:
         publicAccess: true
         enumName: AppAssets
-    output: Book/SwiftGen/Assets.swift
+    output: BookApp/SwiftGen/Assets.swift
