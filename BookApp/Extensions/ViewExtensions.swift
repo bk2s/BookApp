@@ -34,7 +34,7 @@ extension View {
                 RoundedRectangle(cornerRadius: cornerRadius)
                     .foregroundColor(bgColor)
                 self
-            }
+            }.frame(maxHeight: 100)
         }
     }
 }

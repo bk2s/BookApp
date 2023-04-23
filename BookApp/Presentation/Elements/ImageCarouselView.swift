@@ -30,15 +30,17 @@ struct ImageCarouselView: View {
                     ForEach(Array(banners.enumerated()), id: \.offset) { _, banner in
                         if let url = URL(string: banner.coverUrl) {
                             ZStack {
+                                SkeletonView()
                                 KFImage(url)
+//                                    .onFailureImage(AppAssets.noCover.image)
                                     .resizable()
-                                    .scaledToFill()
-                                    .frame(width: geometry.size.width, height: geometry.size.height)
-                                    .clipped()
                                     .onTapGesture {
                                         self.bannerTapped(banner.bookID)
                                     }
                             }
+                            .scaledToFill()
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .clipped()
                         }
                     }
                 }

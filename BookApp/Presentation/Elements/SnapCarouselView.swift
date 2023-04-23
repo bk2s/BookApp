@@ -45,10 +45,11 @@ struct SnapCarouselView: View {
                                 .cornerRadius(16)
                             Text(item.name)
                                 .font(Theme.Fonts.displayMedium)
-                                .frame(maxWidth: idiom == .pad ? 400 : 200)
                             Text(item.author)
                                 .font(Theme.Fonts.bodyMedium)
                         }.multilineTextAlignment(.center)
+                            .frame(width: idiom == .pad ? 400 : 300)
+
                     }
                     .foregroundColor(Color.white)
                     .cornerRadius(8)

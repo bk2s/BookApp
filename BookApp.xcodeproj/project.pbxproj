@@ -32,6 +32,8 @@
 		022FBEBE29F515DD003011AE /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 027BDDE329F4AC2800089FF6 /* NunitoSans-SemiBold.ttf */; };
 		022FBEC029F51A1F003011AE /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FBEBF29F51A1F003011AE /* ViewExtensions.swift */; };
 		022FBEC329F54D99003011AE /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FBEC229F54D99003011AE /* SplashScreenView.swift */; };
+		02802C6829F598E3008FFFA9 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02802C6729F598E3008FFFA9 /* SkeletonView.swift */; };
+		02802C6A29F59F12008FFFA9 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02802C6929F59F12008FFFA9 /* BookView.swift */; };
 		0281970829F57BA9008A4737 /* SnackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281970729F57BA9008A4737 /* SnackBarView.swift */; };
 		02A55DAD29F3D97C00755DF2 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 02A55DAC29F3D97C00755DF2 /* swiftgen.yml */; };
 		02A55DB029F3D9A900755DF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02A55DB229F3D9A900755DF2 /* Localizable.strings */; };
@@ -73,6 +75,8 @@
 		027BDDE229F4AC2800089FF6 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		027BDDE329F4AC2800089FF6 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		027BDDE429F4ADA500089FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02802C6729F598E3008FFFA9 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
+		02802C6929F59F12008FFFA9 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		0281970729F57BA9008A4737 /* SnackBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBarView.swift; sourceTree = "<group>"; };
 		02A55DAC29F3D97C00755DF2 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		02A55DB129F3D9A900755DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				022FBEB929F4B7FB003011AE /* SnapCarouselView.swift */,
 				021B792329F57642007B5907 /* SpinnerView.swift */,
 				0281970729F57BA9008A4737 /* SnackBarView.swift */,
+				02802C6729F598E3008FFFA9 /* SkeletonView.swift */,
+				02802C6929F59F12008FFFA9 /* BookView.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -491,6 +497,7 @@
 			files = (
 				022FBEC029F51A1F003011AE /* ViewExtensions.swift in Sources */,
 				021B792429F57642007B5907 /* SpinnerView.swift in Sources */,
+				02802C6829F598E3008FFFA9 /* SkeletonView.swift in Sources */,
 				022FBEB529F4B3CD003011AE /* BookShelfView.swift in Sources */,
 				0205207729F4899F00D91D8D /* BookModel.swift in Sources */,
 				02A55DBC29F3DD8700755DF2 /* FirebaseManager.swift in Sources */,
@@ -507,6 +514,7 @@
 				02A55DB629F3D9F200755DF2 /* Assets.swift in Sources */,
 				0205206329F4799800D91D8D /* LocalDataManager.swift in Sources */,
 				0281970829F57BA9008A4737 /* SnackBarView.swift in Sources */,
+				02802C6A29F59F12008FFFA9 /* BookView.swift in Sources */,
 				02CEC48629F3D4790045AA62 /* BannersResponse.swift in Sources */,
 				0205206929F47EC100D91D8D /* MainViewModel.swift in Sources */,
 				022FBEBC29F50938003011AE /* BookDetailsViewModel.swift in Sources */,

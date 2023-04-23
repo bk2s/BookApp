@@ -16,11 +16,11 @@ struct SpinnerView: View {
                 Circle()
                     .foregroundColor(AppAssets.accentColor.swiftUIColor)
                     .frame(width: geometry.size.width / 5, height: geometry.size.height / 5)
-                    .scaleEffect(!isAnimating ? 1 - CGFloat(index) / 5 : 0.2 + CGFloat(index) / 5)
+                    .scaleEffect(isAnimating ? 1 - CGFloat(index) / 5 : 0.2 + CGFloat(index) / 5)
                     .offset(y: geometry.size.width / 10 - geometry.size.height / 2)
-                    .rotationEffect(!isAnimating ? .degrees(0) : .degrees(360))
+                    .rotationEffect(!isAnimating ? .degrees(0) : .degrees(3600))
                     .animation(Animation
-                        .timingCurve(0.5, Double(index) / 5 + 0.5, 0.5, 1, duration: 1.5)
+                        .timingCurve(0.5, Double(index) / 5 + 0.5, 0.5, 1, duration: 20)
                         .repeatForever(autoreverses: false))
             }
         }
